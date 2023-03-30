@@ -46,7 +46,7 @@ class Hastebin {
 
     const body = raw ? await res.text() : await res.json();
 
-    return raw ? body.body : body.data;
+    return raw ? body : body.data;
   }
 
   /*
