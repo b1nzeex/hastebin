@@ -44,7 +44,7 @@ class Hastebin {
       throw new Error(`Failed to get from hastebin: ${res.status}`);
     }
 
-    const body = await res.json();
+    const body = raw ? await res.text() : await res.json();
 
     return raw ? body.body : body.data;
   }
