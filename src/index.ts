@@ -86,3 +86,5 @@ class Hastebin {
     };
   }
 }
+
+export { Hastebin, type HastebinOptions, type HastebinPostResult };
