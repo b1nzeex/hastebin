@@ -11,7 +11,7 @@ npm i b1nzeex/hastebin
 ## Example Usage - TypeScript
 
 ```typescript
-import { Hastebin } from "b1nzeex/hastebin";
+import { Hastebin } from "hastebin";
 
 const hastebin = new Hastebin({
   url: "http://hastebin-url.com", // If left empty, will use https://hastebin.com
@@ -30,7 +30,7 @@ console.log(getData);
 ## Example Usage - JavaScript (ES5)
 
 ```javascript
-const { Hastebin } = require("b1nzeex/hastebin");
+const { Hastebin } = require("hastebin");
 
 const hastebin = new Hastebin({
   url: "http://hastebin-url.com", // If left empty, will use https://hastebin.com

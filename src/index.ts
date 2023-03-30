@@ -1,6 +1,6 @@
 import { HastebinOptions, HastebinPostResult } from "./interfaces";
 
-class Hastebin {
+export class Hastebin {
   private url: string;
   private authorization: string;
 
@@ -86,5 +86,3 @@ class Hastebin {
     };
   }
 }
-
-export { Hastebin, type HastebinOptions, type HastebinPostResult };
